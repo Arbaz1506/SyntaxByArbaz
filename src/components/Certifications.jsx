@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const Certifications = () => {
+
+function Certifications() {
   return (
-    <div>Certifications</div>
-  )
+    <div>Certifications Section</div>
+  );
 }
+
+export default Certifications;

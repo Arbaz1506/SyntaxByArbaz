@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Experience = () => {
+function Experience() {
   return (
-    <div>Experience</div>
-  )
+    <div>Experience Section</div>
+  );
 }
+
+export default Experience;

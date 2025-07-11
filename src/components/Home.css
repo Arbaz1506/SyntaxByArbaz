@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.home-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0a0a0a, #121212); /* Match with navbar */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.home-section h1 .name-blue {
+  color: #00bfff;
+  background: linear-gradient(to right, #00bfff, #1da1f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c5c6c7;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  background: #00bfff;
+  color: #fff;
+  padding: 0.7rem 1.6rem;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 191, 255, 0.3);
+}
+
+.btn:hover {
+  background: #007bbd;
+  box-shadow: 0 6px 20px rgba(0, 191, 255, 0.4);
+}
+
+/* 👇 Your desired social icons style */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #111;
+  padding: 0.6rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.1);
+}
+
+.social-icons a:hover {
+  color: #00bfff;
+  background-color: #1a1a1a;
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+}
+
+.home-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #00bfff;
+  margin-top: 2rem;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .social-icons a {
+    font-size: 1.6rem;
+  }
+
+  .home-image img {
+    width: 140px;
+    height: 140px;
+  }
+}

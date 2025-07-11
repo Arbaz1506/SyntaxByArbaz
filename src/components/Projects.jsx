@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const Projects = () => {
+function Projects () {
   return (
-    <div>Projects</div>
+    <div> Project </div>
   )
 }
+
+export default Projects;
+
