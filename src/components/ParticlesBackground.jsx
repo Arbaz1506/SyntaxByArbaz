@@ -1,87 +1,95 @@
-import React from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { useEffect, useMemo, useState } from "react";
+import { loadSlim } from "@tsparticles/slim";
 
-const ParticlesBackground = () => {
-  const particlesInit = async (main) => {
-    await loadFull(main);
+const ParticlesComponent = (props) => {
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
+  const particlesLoaded = (container) => {
+    console.log(container);
   };
 
-  return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      options={{
-        fullScreen: {
-          enable: false, // important! warna poora page overlap ho jaega
+  const options = useMemo(() => ({
+    background: {
+      color: { value: "#0b0c10" }  // Dark theme
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: -1,
+    },
+    fpsLimit: 120,
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "push",
         },
-        background: {
-          color: {
-            value: "#0b0c10",
-          },
+        onHover: {
+          enable: true,
+          mode: "repulse",
         },
-        particles: {
-          number: {
-            value: 85,
-            density: {
-              enable: true,
-              value_area: 400,
-            },
-          },
-          color: {
-            value: "#ede6e6",
-          },
-          shape: {
-            type: "circle",
-          },
-          opacity: {
-            value: 0.5,
-            random: true,
-          },
-          size: {
-            value: 3,
-            random: true,
-          },
-          line_linked: {
-            enable: true,
-            distance: 150,
-            color: "#ffffff",
-            opacity: 0.4,
-            width: 1,
-          },
-          move: {
-            enable: true,
-            speed: 6,
-            direction: "none",
-            out_mode: "out",
-          },
+        resize: true,
+      },
+      modes: {
+        repulse: {
+          distance: 200,
+          duration: 0.4,
         },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: true,
-              mode: "repulse",
-            },
-            onclick: {
-              enable: true,
-              mode: "push",
-            },
-            resize: true,
-          },
-          modes: {
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-            push: {
-              particles_nb: 4,
-            },
-          },
+        push: {
+          particles_nb: 4,
         },
-        retina_detect: true,
-      }}
-    />
-  );
+      },
+    },
+    particles: {
+      number: {
+        value: 200,   // Increased density
+        density: {
+          enable: true,
+          area: 700,
+        },
+      },
+      color: {
+        value: ["#00bfff", "#00e5ff", "#ffffff"],  // Soft glowing colors
+      },
+      links: {
+        enable: true,
+        distance: 130,
+        color: "#00bfff",
+        opacity: 0.3,
+        width: 1.2,
+      },
+      shape: {
+        type: "circle",
+      },
+      opacity: {
+        value: 0.6,
+        random: true,
+      },
+      size: {
+        value: { min: 1.5, max: 3.5 },
+        random: true,
+      },
+      move: {
+        enable: true,
+        speed: 1.2,
+        direction: "none",
+        outModes: {
+          default: "out",
+        },
+      },
+    },
+    detectRetina: true,
+  }), []);
+
+  return <Particles id={props.id} init={particlesLoaded} options={options} />;
 };
 
-export default ParticlesBackground;
+export default ParticlesComponent;
