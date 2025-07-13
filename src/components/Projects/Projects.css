@@ -1,0 +1,122 @@
+/* ==== FULL WIDTH SECTION WRAPPER ==== */
+.projects-section {
+  width: 100%;
+  background: rgba(11, 12, 16, 0.88); /* dark-glass bg */
+  color: #ffffff;
+  padding: 6rem 0;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(0, 191, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 191, 255, 0.1);
+  overflow: hidden;
+}
+
+/* ==== CENTERED CONTAINER ==== */
+.projects-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  border-radius: 18px;
+  box-shadow:
+    0 0 25px rgba(0, 191, 255, 0.04),
+    inset 0 0 20px rgba(255, 255, 255, 0.015);
+}
+
+/* ==== SECTION LABEL ==== */
+.projects-label {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00bfff;
+  margin-bottom: 1rem;
+  display: inline-block;
+  background: rgba(0, 191, 255, 0.1);
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.1);
+  animation: labelGlow 3s ease-in-out infinite;
+}
+
+@keyframes labelGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 18px rgba(0, 191, 255, 0.3);
+  }
+}
+
+/* ==== SECTION TITLE ==== */
+.section-title,
+.projects-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  background: linear-gradient(90deg, #00bfff, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 6px rgba(0, 191, 255, 0.15);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.projects-title {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.15), 0 0 20px rgba(0, 191, 255, 0.08);
+  }
+  50% {
+    text-shadow: 0 0 18px rgba(0, 191, 255, 0.25), 0 0 40px rgba(0, 191, 255, 0.12);
+  }
+}
+
+/* ==== GRID WRAPPING ALL PROJECT CARDS ==== */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+
+  background: rgba(255, 255, 255, 0.02);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 191, 255, 0.07);
+  box-shadow:
+    inset 0 0 12px rgba(0, 191, 255, 0.03),
+    0 0 25px rgba(0, 191, 255, 0.04);
+  backdrop-filter: blur(10px);
+
+  /* ✅ Limit Width to Look Neat */
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==== RESPONSIVE STYLES ==== */
+@media (max-width: 768px) {
+  .section-title,
+  .projects-title {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .projects-section {
+    padding: 4rem 0;
+  }
+
+  .projects-container {
+    padding: 0 1rem;
+  }
+
+  .projects-grid {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+}

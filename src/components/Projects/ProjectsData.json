@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Weather App",
+    "repo": "https://github.com/Arbaz1506/weather-app",
+    "demo": "https://arbaz1506.github.io/weather-app/",
+    "image": "weather",
+    "description": "Get real-time weather updates for any city using the OpenWeatherMap API. Built with React, Axios, and beautiful UI elements."
+  },
+  {
+    "title": "ReactForm",
+    "repo": "https://github.com/Arbaz1506/ReactForm",
+    "demo": "https://react-form-two-ashy.vercel.app",
+    "image": "form",
+    "description": "Reusable form component with validation and custom hook integration. Great example of component architecture in React."
+  },
+  {
+    "title": "Welcomi",
+    "repo": "https://github.com/Arbaz1506/Welcomi",
+    "demo": "https://welcomi-arbaz1506s-projects.vercel.app",
+    "image": "login",
+    "description": "A warm animated welcome page using React and styled-components. Elegant transitions and interactions."
+  },
+  {
+    "title": "TickTally-React",
+    "repo": "https://github.com/Arbaz1506/TickTally-React",
+    "demo": "https://tick-tally-react.vercel.app/",
+    "image": "tick",
+    "description": "Task tracking app with ticking timers, alerts and task progress visualized neatly. Built with functional components."
+  },
+  {
+    "title": "Thought-Ripple",
+    "repo": "https://github.com/Arbaz1506/Thought-Ripple",
+    "demo": "https://arbaz1506.github.io/Thought-Ripple/",
+    "image": "thought",
+    "description": "A digital notebook for journaling your thoughts with ripple-inspired UI effects. Perfect for mindfulness."
+  },
+  {
+    "title": "Password Generator",
+    "repo": "https://github.com/Arbaz1506/PasswordGenerator",
+    "demo": "https://arbaz1506.github.io/PasswordGenerator/",
+    "image": "password",
+    "description": "Secure password generator with customizable character types and lengths. Focused on UI and security."
+  }
+]

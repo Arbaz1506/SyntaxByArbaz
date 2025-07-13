@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Data Structures and Algorithms",
+    "issuer": "PW Skills",
+    "date": "Jan 2024",
+    "link": "https://pwskills.com/learn/certificate/8346b8f3-457e-465f-a8b7-43573e87cce5/",
+    "logo": "dsa"
+  },
+  {
+    "id": 2,
+    "title": "DSA Workshop and Application",
+    "issuer": "PW Skills",
+    "date": "Feb 2025",
+    "link": "#",
+    "logo": "workshop"
+  },
+  {
+    "id": 3,
+    "title": "Python for Beginners",
+    "issuer": "Telusko (Udemy)",
+    "date": "June 2025",
+    "link": "https://www.udemy.com/certificate/UC-8ea1d55e-fdf5-4943-945e-4e1b7b7da881",
+    "logo": "python"
+  }
+]

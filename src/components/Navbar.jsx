@@ -9,7 +9,6 @@ const Navbar = () => {
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Skills", link: "#skills" },
-    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     { name: "Certifications", link: "#certifications" },
     { name: "Contact", link: "#contact" },
@@ -25,7 +24,7 @@ const Navbar = () => {
           <span></span>
         </div>
 
-        <div className="logo">SyntaxByArbaz</div>
+        {/* <div className="logo">SyntaxByArbaz</div> */}
 
         <ul className="nav-links">
           {navItems.map((item) => (

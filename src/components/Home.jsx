@@ -11,15 +11,19 @@ function Home() {
       <ParticlesBackground />
 
       <div className="home-content">
-        <h1><span className="name-white">Arbaz</span> <span className="name-blue">Salam</span></h1>
+        <h1>
+          <span className="name-white">Arbaz</span>{' '}
+          <span className="name-blue">Salam</span>
+        </h1>
         <h2>Full Stack Developer & Aspiring SDE</h2>
+
         <div className="social-icons">
-          <a href="mailto:arbazsalam15@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a>
-          <a href="/assets/Arbaz_Resume.pdf" download><FaFileAlt /></a>
-          <a href="https://www.linkedin.com/in/arbazsalam156/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-          <a href="https://github.com/Arbaz1506" target="_blank" rel="noreferrer"><FaGithub /></a>
-          <a href="https://x.com/__arbaz15__" target="_blank" rel="noreferrer"><FaTwitter /></a>
-          <a href="https://leetcode.com/u/arbaz_156/" target="_blank" rel="noreferrer"><SiLeetcode /></a>
+          <a href="mailto:arbazsalam15@gmail.com" target="_blank" rel="noreferrer" title="Send Email"><FaEnvelope /></a>
+          <a href="https://drive.google.com/file/d/174SD7b2pgIAWclsrOWTGgsA7ZNjWv2gI/view?usp=drive_link" target="_blank" rel="noopener noreferrer" title="View/Download Resume"><FaFileAlt /></a>
+          <a href="https://www.linkedin.com/in/arbazsalam156/" target="_blank" rel="noreferrer" title="Visit LinkedIn Profile"><FaLinkedin /></a>
+          <a href="https://github.com/Arbaz1506" target="_blank" rel="noreferrer" title="Visit GitHub Profile"><FaGithub /></a>
+          <a href="https://x.com/__arbaz15__" target="_blank" rel="noreferrer" title="Follow on Twitter (X)"><FaTwitter /></a>
+          <a href="https://leetcode.com/u/arbaz_156/" target="_blank" rel="noreferrer" title="Check LeetCode Profile"><SiLeetcode /></a>
         </div>
       </div>
     </section>

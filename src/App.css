@@ -1,10 +1,134 @@
-.App {
-  text-align: center;
+.about-section {
+  background: rgba(11, 12, 16, 0.9);
+  color: #ffffff;
+  padding: 4rem 2rem;
+  backdrop-filter: blur(6px);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
-#particles canvas {
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+.about-title {
+  font-size: 2.7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #00bfff;
+  text-shadow: 0 0 12px rgba(0, 191, 255, 0.4);
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 270px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.25);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cfd2d6;
+  letter-spacing: 0.4px;
+  text-align: justify;
+  animation: fadeInUp 0.8s ease;
+}
+
+.about-text p {
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #00bfff;
+  font-weight: 600;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #00bfff, #1e90ff, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.wave {
+  font-size: 1.2rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-image img {
+    width: 220px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* 🧠 SDE-Level Scrollbar - Network Link Inspired */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #0b0c10, #0f1115);
+  border-left: 1px solid rgba(0, 191, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #00bfff, #007bff);  /* stable blue network flow */
+  border-radius: 12px;
+  border: 2px solid #0b0c10;
+  box-shadow: 0 0 6px rgba(0, 191, 255, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg, #00bfff, #1e90ff);
+  transform: scaleX(1.1);
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00bfff #0b0c10;
 }
