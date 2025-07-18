@@ -20,7 +20,7 @@ function About() {
             I’m <strong>Arbaz Salam</strong>, a developer who loves turning complex ideas into seamless digital experiences. My work spans across frontend creativity and backend logic — using tools like <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>Tailwind CSS</strong>.
           </p>
           <p>
-            My roots lie in <strong>C++</strong> and problem-solving. With 200+ problems solved on platforms like <strong>LeetCode</strong> and <strong>AtCoder</strong>, I’ve built a strong base in <span className="highlight">DSA, logic, and clean code</span>.
+            My roots lie in <strong>C++</strong> and problem-solving. With 400+ problems solved on platforms like <strong>LeetCode</strong> and <strong>AtCoder</strong>, I’ve built a strong base in <span className="highlight">DSA, logic, and clean code</span>.
           </p>
           <p>
             I’m currently exploring ways to blend <strong>design, performance, and real-world impact</strong> — whether it’s a dynamic weather app, an intuitive portfolio, or a full-fledged product. My goal? To become a <span className="highlight">Software Engineer</span> who builds with empathy and excellence.
