@@ -9,7 +9,7 @@ const imageMap = {
   dsa,
   workshop,
   python, 
-  ibm
+  ibm,
 };
 
 const CertificationCard = ({ title, issuer, date, link, logo }) => {
