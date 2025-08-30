@@ -1,5 +1,6 @@
 import React from "react";
 import dsa from "../../assets/dsa.jpg";
+import ibm from "../../assets/ibm.jpg";
 import workshop from "../../assets/workshop.jpg";
 import python from "../../assets/python.jpg";
 import "./CertificationCard.css";
@@ -7,7 +8,8 @@ import "./CertificationCard.css";
 const imageMap = {
   dsa,
   workshop,
-  python
+  python, 
+  ibm
 };
 
 const CertificationCard = ({ title, issuer, date, link, logo }) => {

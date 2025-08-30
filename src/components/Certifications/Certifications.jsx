@@ -6,7 +6,7 @@ import "./Certifications.css";
 const Certifications = () => {
   return (
     <section className="certifications-section" id="certifications">
-      <h2>Certifications</h2>
+      <h2>Certifications & Achievement</h2>
       <div className="certifications-grid">
         {certificationData.map((cert) => (
           <CertificationCard
