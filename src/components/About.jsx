@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-import ProfileImg from '../assets/Profile.jpg';
-
+// import ProfileImg from '../assets/Profile.jpg';
+import Prof1 from '../assets/Prof1.jpg';
 function About() {
   return (
     <section id="about" className="about-section">
@@ -9,7 +9,7 @@ function About() {
 
       <div className="about-card">
         <div className="profile-side">
-          <img src={ProfileImg} alt="Arbaz Salam" className="about-img" />
+          <img src={Prof1} alt="Arbaz Salam" className="about-img" />
           <p className="quote">
             “Code is my canvas. Every project, a new story.”  
           </p>
