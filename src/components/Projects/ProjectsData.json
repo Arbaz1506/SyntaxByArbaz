@@ -1,5 +1,13 @@
 [
   {
+    "title": "ZenTask",
+    "repo": "https://github.com/Arbaz1506/ZenTask",
+    "demo": "https://zen-task-tau.vercel.app/",
+    "image": "ZenTask",
+    "description": "A full-stack task management application built with the MERN stack. Features include JWT authentication, secure CRUD operations, and a modern, responsive UI for efficient task organization."
+  },
+
+  {
     "title": "Weather App",
     "repo": "https://github.com/Arbaz1506/weather-app",
     "demo": "https://arbaz1506.github.io/weather-app/",
@@ -40,5 +48,13 @@
     "demo": "https://arbaz1506.github.io/PasswordGenerator/",
     "image": "password",
     "description": "Secure password generator with customizable character types and lengths. Focused on UI and security."
-  }
+  },
+  {
+  "title": "SyncChrono",
+  "repo": "https://github.com/Arbaz1506/SyncChrono",
+  "demo": "https://arbaz1506.github.io/SyncChrono/",
+  "image": "syncchrono",
+  "description": "A minimal, dark-themed clock, stopwatch, and timer app with a sleek UI for time management."
+}
+
 ]
