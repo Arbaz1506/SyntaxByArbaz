@@ -12,7 +12,7 @@ function Home() {
 
       <div className="home-content">
         <h1>
-          <span className="name-white">Arbaz</span>{' '}
+          <span className="name-white">Md Arbaz</span>{' '}
           <span className="name-blue">Salam</span>
         </h1>
         <h2>Full Stack Developer & Aspiring SDE</h2>
