@@ -7,6 +7,7 @@ import thought from '../../assets/thought.png';
 import password from '../../assets/password.jpg';
 import ZenTask from '../../assets/ZenTask.png';
 import syncchrono from '../../assets/syncchrono.jpg';
+import Wheelora from '../../assets/Wheelora.jpg';
 import './ProjectCard.css';
 
 // 🧠 Map image keys to imported files
@@ -18,7 +19,8 @@ const imageMap = {
   thought,
   password,
   ZenTask,
-  syncchrono
+  syncchrono,
+  Wheelora
 };
 
 const ProjectCard = ({ title, repo, demo, image, description }) => {

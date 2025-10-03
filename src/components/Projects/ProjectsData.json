@@ -1,12 +1,18 @@
 [
   {
+    "title": "Wheelora",
+    "repo": "https://github.com/Arbaz1506/Wheelora",
+    "demo": "https://wheelora.vercel.app/",
+    "image": "Wheelora",
+    "description": "A modern car rental platform with seamless booking, filtering, and responsive design. Built with React and optimized for performance."
+  },
+  {
     "title": "ZenTask",
     "repo": "https://github.com/Arbaz1506/ZenTask",
     "demo": "https://zen-task-tau.vercel.app/",
     "image": "ZenTask",
     "description": "A full-stack task management application built with the MERN stack. Features include JWT authentication, secure CRUD operations, and a modern, responsive UI for efficient task organization."
   },
-
   {
     "title": "Weather App",
     "repo": "https://github.com/Arbaz1506/weather-app",
@@ -50,11 +56,10 @@
     "description": "Secure password generator with customizable character types and lengths. Focused on UI and security."
   },
   {
-  "title": "SyncChrono",
-  "repo": "https://github.com/Arbaz1506/SyncChrono",
-  "demo": "https://arbaz1506.github.io/SyncChrono/",
-  "image": "syncchrono",
-  "description": "A minimal, dark-themed clock, stopwatch, and timer app with a sleek UI for time management."
-}
-
+    "title": "SyncChrono",
+    "repo": "https://github.com/Arbaz1506/SyncChrono",
+    "demo": "https://arbaz1506.github.io/SyncChrono/",
+    "image": "syncchrono",
+    "description": "A minimal, dark-themed clock, stopwatch, and timer app with a sleek UI for time management."
+  }
 ]
