@@ -15,7 +15,7 @@ function Contact() {
           <a href="https://github.com/Arbaz1506" target="_blank" rel="noopener noreferrer">
             <FaGithub /> GitHub
           </a>
-          <a href="https://linkedin.com/in/arbazsalam" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/arbazsalam156" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
         </div>
