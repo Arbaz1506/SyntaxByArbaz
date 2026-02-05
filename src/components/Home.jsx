@@ -19,7 +19,7 @@ function Home() {
 
         <div className="social-icons">
           <a href="mailto:arbazsalam15@gmail.com" target="_blank" rel="noreferrer" title="Send Email"><FaEnvelope /></a>
-          <a href="https://drive.google.com/file/d/1mRTM3Up3MDWluowhY-tfH6mmhM4bGv0b/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="View/Download Resume"><FaFileAlt /></a>
+          <a href="https://drive.google.com/file/d/1e2ppzvZMlnPGnEx-67c7OHLm7X1w2qkq/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="View/Download Resume"><FaFileAlt /></a>
           <a href="https://www.linkedin.com/in/arbazsalam156/" target="_blank" rel="noreferrer" title="Visit LinkedIn Profile"><FaLinkedin /></a>
           <a href="https://github.com/Arbaz1506" target="_blank" rel="noreferrer" title="Visit GitHub Profile"><FaGithub /></a>
           <a href="https://x.com/__arbaz15__" target="_blank" rel="noreferrer" title="Follow on Twitter (X)"><FaTwitter /></a>
